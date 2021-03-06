@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.bigText {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: xx-large;
+}
+
+p {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#setTime {
+    text-align: right;
+}
+
+.options {
+    display: none;
+    text-align: center;
+}
+
+#highScore {
+    text-align: left;
+}

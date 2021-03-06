@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <p id="highScore">High Score</p>
+    <p id="setTime"></p>
+    <div class="question container">
+        <h1 class="question" id="question">Code Challenge Quiz</h1>
+    <p id="smallText">Try to guess the answer to each question with the possibilities given below. Click the start button to begin! Make sure to include your name for the high scores!</p>
+    </div>
+    <div class="answer-container">
+        <button class="start" id="start" onclick="hideStart()" onclick="revealChoice1()" onclick="revealChoice2()" onclick="revealChoice3()" onclick="revealChoice4()">Start Quiz</button>
+        <input type="button" class="options" id="option1"></input>
+        <input type="button" class="options" id="option2"></input>
+        <input type="button" class="options" id="option3"></input>
+        <input type="button" class="options" id="option4"></input>
+    </div>
+</body>
+<script src="javascript.js"></script>
+</html> 
