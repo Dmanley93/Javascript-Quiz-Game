@@ -14,13 +14,45 @@
         <h1 class="question" id="question">Code Challenge Quiz</h1>
     <p id="smallText">Try to guess the answer to each question with the possibilities given below. Click the start button to begin! Make sure to include your name for the high scores!</p>
     </div>
-    <div class="answer-container">
         <button class="start" id="start" onclick="hideStart()" onclick="revealChoice1()" onclick="revealChoice2()" onclick="revealChoice3()" onclick="revealChoice4()">Start Quiz</button>
-        <input type="button" class="options" id="option1"></input>
-        <input type="button" class="options" id="option2"></input>
-        <input type="button" class="options" id="option3"></input>
-        <input type="button" class="options" id="option4"></input>
+        <div class="answer-container">
+        <button type="button" class="options" id="option1"></button>
+        <button type="button" class="options" id="option2"></button>
+        <button type="button" class="options" id="option3"></button>
+        <button type="button" class="options" id="option4"></button>
+        </div>
     </div>
 </body>
 <script src="javascript.js"></script>
 </html> 
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">answer 1</button>
+                <button class="btn">answer 2</button>
+                <button class="btn">answer 3</button>
+                <button class="btn">answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="hide">Next</button>
+            <p class="setTime" id="setTime"></p>
+            <h3 class="highScore" id="highScore"></h3>
+        </div>
+    </div>
+</body>
+<script src="javascript.js"></script>
+</html>  -->
